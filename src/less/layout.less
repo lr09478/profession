@@ -1,0 +1,66 @@
+/* 布局样式文件 */
+
+//顺义综合办公平台
+
+ul, li{
+    list-style: none;
+}
+
+.clear{
+    clear: both;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Hiragino Sans GB', '微软雅黑', tahoma,arial, sans-serif;
+    //font: 12px/1.5 tahoma,arial,'Hiragino Sans GB',sans-serif;
+    //font-family: tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif, "微软雅黑";
+    overflow: hidden;
+}
+
+.pro-main-left{
+    width: 180px;
+    height: 100%;
+    float: left;
+    background-color: @pro-layout-left-bg;
+    overflow-y: auto;
+    position: relative;
+    overflow-x: hidden;
+}
+.pro-main-content{
+    margin-left: 180px;
+    height: 100%;
+    background-color: @pro-layout-content-bg;
+}
+
+
+//顺义web layout
+.web-sy-bg{
+    background-color: #eee;
+}
+.web-sy-header{
+    height: 71px;
+}
+.web-sy-banner{
+    height: 350px;
+    background-color: #6ab0bf;
+}
+.web-sy-system-in{
+    height: 270px;
+}
+.web-sy-content{
+    width: 1100px;
+    margin: 0 auto;
+    .web-sy-content-left{
+        width: 260px;
+        float: left;
+    }
+    .web-sy-content-right{
+        width: 333px;
+        float: right;
+    }
+    .web-sy-content-center{
+        margin-left: 280px;
+        margin-right: 353px;
+    }
+}

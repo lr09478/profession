@@ -1,0 +1,165 @@
+/* 表格样式文件 */
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: transparent;
+}
+.ui-table {
+    width: 100%;
+    _width: 99.3%;
+}
+.ui-table-data{
+    border: 1px solid #dddddd;
+    & tr{
+        & th{
+            border: 1px solid #dddddd;
+            font-size: 14px;
+            height: 29px;
+            line-height: 29px;
+            background-color: #f0f0f0;
+            font-weight: 500;
+            & a.check-box{
+                width: 18px;
+                height: 17px;
+                display: inline-block;
+                background: url('../../images/AA_20141027_27.png') no-repeat 0 0;
+                float: left;
+                margin: 3px 0 0 10px;
+            }
+        }
+        & td{
+            border: 1px solid #dddddd;
+            text-align: center;
+            height: 34px;
+            line-height: 34px;
+            font-size: 14px;
+            & a.check-box{
+                width: 18px;
+                height: 17px;
+                display: inline-block;
+                background: url('../../images/AA_20141027_27.png') no-repeat 0 0;
+                float: left;
+                margin: 3px 0 0 10px;
+            }
+            &.time{
+                color: #999;
+            }
+        }
+    }
+}
+.ui-table-email{
+    & tr{
+        & th{
+            height: 35px;
+            line-height: 35px;
+            background-color: #f4f4f4;
+            border-bottom: 1px solid #dddddd;
+            font-size: 14px;
+            color: #333;
+            font-weight: 500;
+            & a.check-box{
+                width: 18px;
+                height: 17px;
+                display: inline-block;
+                background: url('../../images/AA_20141027_27.png') no-repeat 0 0;
+                float: left;
+                margin: 3px 0 0 10px;
+            }
+        }
+        & td{
+            font-size: 14px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border-bottom: 1px solid #dddddd;
+            .moving-content{
+                position: absolute;
+                display: inline-block;
+                width: 100px;
+                background-color: #fff;
+                border: 1px solid #248be4;
+                z-index: 100;
+                & ul{
+                    padding: 0;
+                    margin: 0;
+                    & li{
+                        height: 30px;
+                        line-height: 30px;
+                        & a{
+                            text-decoration: none;
+                            font-size: 14px;
+                            color: #333;
+                            height: 30px;
+                            line-height: 30px;
+                            text-align: center;
+                            display: block;
+                            &:hover{
+                                background-color: #eee;
+                            }
+                        }
+                    }
+                }
+            }
+            & span.icon-up{
+                display: inline-block;
+                background: url('../../images/iconup.gif') no-repeat center center;
+                width: 10px;
+                padding-left: 5px;
+                height: 10px;
+            }
+            & span.icon-down{
+                display: inline-block;
+                background: url('../../images/icondown.gif') no-repeat center center;
+                width: 10px;
+                padding-left: 5px;
+                height: 10px;
+            }
+            & a.check-box{
+                width: 18px;
+                height: 17px;
+                display: inline-block;
+                background: url('../../images/AA_20141027_27.png') no-repeat 0 0;
+                float: left;
+                margin: 3px 0 0 10px;
+            }
+            & a.check-email{
+                width: 14px;
+                height: 10px;
+                display: inline-block;
+                background: url('../../images/AB_20141027_28.png') no-repeat 0 0;
+                float: left;
+                margin: 5px 0 0 10px;
+            }
+            &.align-left{
+                text-align: left;
+            }
+            &.time{
+                color: #999;
+            }
+            & a{
+                color: #0088cc;
+                text-decoration: none;
+                &.moving{
+                }
+            }
+            &.day-show{
+                text-align: left;
+                height: 40px;
+                border-bottom: 2px solid #dddddd;
+                & a.day{
+                    padding: 0 5px;
+                    height: 22px;
+                    line-height: 22px;
+                    display: inline-block;
+                    background-color: #5bb0f0;
+                    color: #fff;
+                    float: left;
+                    font-size: 12px;
+                    margin: 5px 0 0 5px;
+                }
+            }
+        }
+    }
+}

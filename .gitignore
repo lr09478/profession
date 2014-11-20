@@ -1,0 +1,22 @@
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+/node_modules
+/material
+/dist
+/psd
+/publish
+/lib
+*.log
+*.swp
+*.swo
+*.bak
+*~
+*.diff
+*.patch
+.DS_Store
+.project
+.settings
+Gruntfile.js

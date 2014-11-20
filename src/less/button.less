@@ -1,0 +1,84 @@
+/* 按钮样式文件 */
+
+.ui-button{
+    .border-radius(2px);
+    height: 28px;
+    line-height: 28px;
+    padding: 0 18px;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    background-color: #f8f8f8;
+    color: #333;
+    border: 1px solid #ccc;
+    & span.ui-button-split{
+        cursor: pointer;
+        display: inline-block;
+        padding-right: 15px;
+        background: url('../../images/button_split_d.gif') no-repeat right center;
+        &.split-selected{
+            background: url('../../images/button_split.gif') no-repeat right center;
+        }
+    }
+    &:hover{
+        background-color: #ebe9e9;
+    }
+}
+ul.ui-button-split-ul{
+    position: absolute;
+    right: 251px;
+    top: 130px;
+    z-index: 1025;
+    background-color: #fff;
+    border: 1px solid #248be4;
+    border-top: none;
+    padding: 0;
+    margin: 0;
+    & li{
+        height: 30px;
+        line-height: 30px;
+        & a{
+            text-decoration: none;
+            font-size: 14px;
+            color: #333;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            display: block;
+            &:hover{
+                background-color: #eee;
+            }
+        }
+    }
+}
+
+.ui-button-blue{
+    border: 1px solid #2385d6;
+    background-color: #248be4;
+    color: #fff;
+    &:hover{
+        background-color: #187bd0;
+    }
+}
+.ui-button-red{
+    border: 1px solid #da4820;
+    background-color: #de5618;
+    color: #fff;
+    &:hover{
+        background-color: #ca4a10;
+    }
+}
+.ui-button-green{
+    border: 1px solid #61a941;
+    background-color: #4db118;
+    color: #fff;
+    &:hover{
+        background-color: #43a110;
+    }
+}
+.ui-button-small{
+    height: 20px;
+    padding: 0 9px;
+    line-height: 20px;
+    font-size: 12px;
+}
